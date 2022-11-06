@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scale</title>
+  <style type="text/css">
+    img {
+      width: 300px;
+      display: block;
+      margin: auto;
+      margin-top: 200px;
+      transition: transform 2s;
+    }
+
+    img:hover {
+      /*2倍*/
+      /* transform: scaleX(2); */
+      /*0.5倍*/
+      /* transform: scaleX(.5); */
+
+      /* transform: scaleY(.5); */
+
+      /* transform: scale(2, 2); */
+      /* transform: scale(2); */
+      transform: scale(.25);
+
+    }
+  </style>
+</head>
+
+<body>
+  <img src="./monkey.png" alt="">
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+/* 首页 */
+/* 导航：navbar */
+/* 清除浮动 */
+#navbar h1 {
+  float: none;
+  text-align: center;
+}
+/* 清除浮动 */
+#navbar ul,
+#navbar ul li {
+  float: none;
+}
+/* 缩小内边距并添加底部边框 */
+#navbar ul li a {
+  padding: 5px;
+  border-bottom: #444 dotted 1px;
+}
+/*展示区： showcase */
+/* 调整上下的内边距 */
+#showcase .showcase-content {
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+/* 调整文字大小 */
+#showcase .showcase-content h1 {
+  font-size: 40px;
+}
+/* home-info */
+/* 隐藏图片 */
+#home-info .info-img {
+  display: none;
+}
+/* 文本内容完全覆盖 */
+#home-info .info-content {
+  width: 100%;
+}
+
+/* 清除浮动，覆盖页面宽度 */
+.box {
+  float: none;
+  width: 100%;
+}
+
+/*关于我们页面： about-info */
+/* 清除浮动，覆盖页面宽度 */
+#about-info .info-left,
+#about-info .info-right {
+  float: none;
+  width: 100%;
+}
+/* h2文本居中 */
+.l-heading {
+  text-align: center;
+}
+/* 调整外边距 */
+#about-info .info-right {
+  margin-top: 30px;
+}
+
+/* 联系我们：contact-info */
+/* 添加分割线 */
+#contact-info .box {
+  border-bottom: gray dotted 1px;
+}
